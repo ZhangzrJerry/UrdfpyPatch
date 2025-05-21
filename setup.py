@@ -5,7 +5,7 @@ Maintainer: Zirui Zhang
 from setuptools import setup
 
 # load __version__
-exec(open('pyrender/version.py').read())
+exec(open('urdfpy/version.py').read())
 __version__ = locals()['__version__']
 
 requirements = [
