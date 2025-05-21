@@ -1,7 +1,12 @@
 """
 Author: Matthew Matl
+Maintainer: Zirui Zhang
 """
 from setuptools import setup
+
+# load __version__
+exec(open('pyrender/version.py').read())
+__version__ = locals()['__version__']
 
 requirements = [
     'lxml',             # For XML DOM Tree
@@ -38,6 +43,8 @@ setup(
     long_description='URDF parser and manipulator for Python',
     author='Matthew Matl',
     author_email='matthewcmatl@gmail.com',
+    maintainer='Zirui Zhang',
+    maintainer_email='zhangzrjerry@outlook.com',
     license='MIT License',
     url='https://github.com/mmatl/urdfpy',
     keywords='robotics ros urdf robots parser',
@@ -48,6 +55,11 @@ setup(
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
         'Natural Language :: English',
         'Topic :: Scientific/Engineering'
     ],
