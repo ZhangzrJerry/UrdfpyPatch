@@ -3,8 +3,7 @@
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/zhangzrjerry/UrdfpyPatch/python-package.yml)
 [![Downloads](https://pepy.tech/badge/urdfpy)](https://pepy.tech/project/urdfpy)
 
-Urdfpy is a simple and easy-to-use library for loading, manipulating, saving,
-and visualizing URDF files.
+Urdfpy is a simple and easy-to-use library for loading, manipulating, saving, and visualizing URDF files, with Python support for versions **3.8 to 3.13**.
 
 Extensive API documentation is provided [here](https://urdfpy.readthedocs.io/en/latest/).
 
