@@ -1,9 +1,7 @@
 # Urdfpy
 
-[![Build Status](https://travis-ci.org/mmatl/urdfpy.svg?branch=master)](https://travis-ci.org/mmatl/urdfpy)
-[![Documentation Status](https://readthedocs.org/projects/urdfpy/badge/?version=latest)](https://urdfpy.readthedocs.io/en/latest/?badge=latest)
-[![Coverage Status](https://coveralls.io/repos/github/mmatl/urdfpy/badge.svg?branch=master)](https://coveralls.io/github/mmatl/urdfpy?branch=master)
-[![PyPI version](https://badge.fury.io/py/urdfpy.svg)](https://badge.fury.io/py/urdfpy)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/zhangzrjerry/UrdfpyPatch/python-package.yml)
+[![Downloads](https://pepy.tech/badge/urdfpy)](https://pepy.tech/project/urdfpy)
 
 Urdfpy is a simple and easy-to-use library for loading, manipulating, saving,
 and visualizing URDF files.
@@ -16,12 +14,14 @@ Extensive API documentation is provided [here](https://urdfpy.readthedocs.io/en/
 </p>
 
 ## Installation
+
 You can install urdfpy directly from pip.
 
 ```bash
-pip install urdfpy
+pip install urdfpy@git+https://github.com/ZhangzrJerry/UrdfpyPatch.git
 ```
 
 ## User Guide
+
 Please see the user guide [here](https://urdfpy.readthedocs.io/en/latest/examples/index.html) for
 more information.
