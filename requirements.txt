@@ -3,7 +3,7 @@ networkx
 numpy
 pillow
 pycollada
-pyrender
+pyrender @ git+https://github.com/ZhangzrJerry/PyrenderPatch.git
 six
 trimesh
 sphinx
