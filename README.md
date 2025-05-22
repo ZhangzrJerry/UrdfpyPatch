@@ -1,5 +1,6 @@
 # Urdfpy Patch
 
+![Package Version](https://img.shields.io/badge/version-0.0.23-orange)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/zhangzrjerry/UrdfpyPatch/python-package.yml)
 [![Downloads](https://pepy.tech/badge/urdfpy)](https://pepy.tech/project/urdfpy)
 
